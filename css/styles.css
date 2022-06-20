@@ -4,7 +4,7 @@
   --primery-text-color: #212121;
   --secondary-text-color: #757575;
   --light-text-color: #ffffff;
-  --footer-mail-phone-color:rgba(255, 255, 255, 0.6);
+  --footer-mail-phone-color: rgba(255, 255, 255, 0.6);
 
   --primery-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
@@ -24,6 +24,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--primery-background-color);
+  color: var(--primery-text-color);
   letter-spacing: 0.03em;
 }
 
@@ -94,7 +95,6 @@ body {
 /*стили адресов в футере*/
 
 .address-map {
-  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -103,7 +103,6 @@ body {
 }
 
 .address-mail {
-  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -112,7 +111,6 @@ body {
 }
 
 .address-phone {
-  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -151,11 +149,6 @@ body {
   background-color: var(--accent-color);
   border-radius: 4px;
 
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-
   cursor: pointer;
 }
 
@@ -175,12 +168,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-
-  color: var(--primery-text-color);
 }
 
 .featori-description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -194,8 +184,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-
-  color: var(--primery-text-color);
 }
 
 /* стили секции "наша команда"*/
@@ -209,15 +197,10 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-
-  color: var(--primery-text-color);
 }
 
 .employees-card {
   background-color: var(--primery-background-color);
-
-  width: 270px;
-  height: 368px;
 }
 
 .employees-name {
@@ -225,8 +208,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-
-  color: var(--primery-text-color);
 }
 
 .employees-position {
@@ -266,12 +247,10 @@ body {
 
 /*стили секции "Проекты компании"*/
 
-.galeri-progects {
+.galeri-projects {
   list-style: none;
 }
 .project-item {
-  width: 406.37px;
-  height: 404px;
   text-align: center;
 
   background-color: var(--primery-background-color);
@@ -288,7 +267,6 @@ body {
 }
 
 .about-project {
-  font-weight: 400;
   font-size: 16px;
   text-align: center;
   line-height: 1.88;
